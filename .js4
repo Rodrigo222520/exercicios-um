@@ -1,3 +1,9 @@
 console.log("hello world")
 
-function inverterTexto 
+let texto = prompt("digite a palavra:");
+
+function inverterTexto(texto){
+
+    return texto.split('').reverse().join('');
+}
+inverterTexto(texto);
