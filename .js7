@@ -1,9 +1,9 @@
 console.log("hello world");
 
 const nome = "Rodrigo";
-const mensagem = "Olá!";
-alert(nome);
-alert(mensagem);
+const mensagem = "Olá!  15:00";
+console.log(nome);
+console.log(mensagem);
 function mensagemPersonalizada (oi) {
     let mensagemPersonalizada = ["nome","mensagem"];
     console.log(mensagemPersonalizada[1]);

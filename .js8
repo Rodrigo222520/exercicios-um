@@ -1,0 +1,9 @@
+console.log("hello world")
+
+let n1 = parseFloat(prompt('escreva n1'));
+let n2 = parseFloat(prompt('escreva n2'));
+let n3 = parseFloat(prompt('escreva n3'));
+
+function media (n1,n2,n3) {
+    const soma = n1 + n2 + n3;
+}
