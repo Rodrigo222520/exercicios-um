@@ -1,0 +1,11 @@
+console.log("hello world");
+
+const modelo = "valor_do_modelo_é_1";
+alert(modelo);
+    var obj = 'carro';
+let carro = ["modelo","marca","ano"];
+console.log(carro[0])
+
+
+
+
