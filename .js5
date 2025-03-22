@@ -1,2 +1,8 @@
-console.log("hello world")
+console.log("hello world");
+
+var caracteres = "texto";
+
+    console.log(caracteres.length);
+    
+
 
