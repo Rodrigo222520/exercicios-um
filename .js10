@@ -1,0 +1,10 @@
+console.log("hello world");
+
+const nome = "arara";
+const  texto = "é um palindromo";
+console.log(nome);
+console.log(texto);
+
+function verificarPalindromo (arara){
+    let verificarPalindromo = ["nome","texto"];
+}
