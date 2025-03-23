@@ -1,0 +1,6 @@
+console.log("hello world");
+
+function verificarTemperatura(celsius){
+    return(celsius * 9) / 5 + 32;
+}
+console.log("resultado em fahrenheit", verificarTemperatura(24));
