@@ -1,0 +1,33 @@
+console.log("hello world");
+
+var numero;
+
+for (let i = 0; i < 21; i++) {
+    console.log('numero');
+    if (numero = 3) {
+        console.log('é múltiplo de 3');
+    } else {
+        console.log('não é múltiplo de 3');
+    }
+    if (numero = 6) {
+        console.log('é múltiplo de 3');
+    } else {
+        console.log('não é múltiplo de 3');
+    } if (numero = 9) {
+        console.log('é múltiplo de 3');
+    } else {
+        console.log('não é múltiplo de 3');
+    } if (numero = 12) {
+        console.log('é múltiplo de 3');
+    } else {
+        console.log('não é múltiplo de 3');
+    } if (numero = 15) {
+        console.log('é múltiplo de 3');
+    } else {
+        console.log('não é múltiplo de 3');
+    } if (numero = 18) {
+        console.log('é múltiplo de 3');
+    } else {
+        console.log('não é múltiplo de 3');
+    }
+}
