@@ -1,2 +1,7 @@
 console.log("hello world");
 
+function substituirPalavra (azul) {
+    let texto = "azul";
+    let resultado = texto.replace("azul","vermelho");
+}
+console.log(resultado);
