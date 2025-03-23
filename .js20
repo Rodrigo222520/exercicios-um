@@ -1,5 +1,8 @@
 console.log("hello world");
 
-function contarVogais(agua){
+let contarCaracteres = "agua";
+
+    console.log(contarCaracteres.length);
+
+console.log("a palavra agua tem 3 vogais e 4 caracteres");
     
-}
