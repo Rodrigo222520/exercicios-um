@@ -3,7 +3,8 @@ console.log("hello world");
 var numero;
 
 for (let i = 0; i < 21; i++) {
-    console.log('numero');
+    console.log('numero', numero);
+    numero++
     if (numero = 3) {
         console.log('é múltiplo de 3');
     } else {
