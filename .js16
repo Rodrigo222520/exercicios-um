@@ -1,0 +1,4 @@
+console.log("hello world");
+
+let frutas = ["maça","banana","laranja","limão","tomate"];
+console.log(frutas[2]);
