@@ -3,8 +3,12 @@ console.log("hello world");
 function verificarAprovacao(nota){
     if(nota >= 6){
         console.log("aprovado");
+    }else{
+        console.log("reprovado")
     }
     if(nota < 6){
         console.log("reprovado");
+    }else{
+        console.log("aprovado")
     }
 }
