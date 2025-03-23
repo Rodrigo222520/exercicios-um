@@ -1,6 +1,6 @@
 console.log("hello world");
 
-var numero;
+let numero;
 
 for (let i = 0; i < 21; i++) {
     console.log('numero', numero);

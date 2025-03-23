@@ -1,2 +1,12 @@
 console.log("hello world");
 
+let atual = 1;
+let somatorio = 0;
+
+while(atual <= 100){
+    console.log(atual);
+
+    atual = atual + 1
+}
+console.log('somatório dos numeros de 1 a', 100);
+console.log(atual);
