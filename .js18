@@ -1,0 +1,10 @@
+console.log("hello world");
+
+function verificarAprovacao(nota){
+    if(nota >= 6){
+        console.log("aprovado");
+    }
+    if(nota < 6){
+        console.log("reprovado");
+    }
+}

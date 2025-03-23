@@ -1,0 +1,10 @@
+console.log("hello world");
+
+const saudacao = "Bem vindo(a)";
+const nome = "Rodrigo";
+console.log(saudacao);
+console.log(nome);
+function saudacaoDafuncao (nome,saudacao) {
+    let saudacaoDafuncao = ["nome","saudacao"];
+    console.log(saudacaoDafuncao[1]);
+}
