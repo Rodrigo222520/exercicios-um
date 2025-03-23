@@ -1,0 +1,7 @@
+console.log("hello world");
+
+const numero = "tem menos de 10 caracteres"
+const verificarTamanho = "palavra"
+console.log(verificarTamanho.length);
+console.log(verificarTamanho);
+console.log(numero);

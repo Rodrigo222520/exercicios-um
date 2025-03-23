@@ -1,6 +1,6 @@
 console.log("hello world");
 
-var contarCaracteres = "texto";
+let contarCaracteres = "texto";
 
     console.log(contarCaracteres.length);
     
