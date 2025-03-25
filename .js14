@@ -1,7 +1,10 @@
 console.log("hello world");
 
-function substituirPalavra (azul) {
-    let texto = "azul";
-    let resultado = texto.replace("azul","vermelho");
+var blue = "azul";
+
+function substituirPalavra (blue) {
+    console.log("a palvra é: " + blue);
+    blue = blue.replace("azul","vermelho");
+    console.log("a palavra a seguir é: " + blue);
 }
-console.log(resultado);
+console.log(blue);

@@ -1,10 +1,15 @@
 console.log("hello world");
 
-const nome = "arara";
-const  texto = "é um palindromo";
-console.log(nome);
-console.log(texto);
+let palindromo = prompt("escreva uma palavra");
 
-function verificarPalindromo (arara){
-    let verificarPalindromo = ["nome","texto"];
+function verificarPalindromo(palindromo){
+    separar = palindromo.split('');
+    inverter = separar.reverse('');
+    juntar = inverter.join('');
+    if(juntar == palindromo){
+        console.log("é um palindromo");
+    }else{
+        console.log("não é um palindromo")
+    }
 }
+verificarPalindromo(palindromo);

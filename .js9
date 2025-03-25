@@ -3,32 +3,9 @@ console.log("hello world");
 let numero;
 
 for (let i = 0; i < 21; i++) {
-    console.log('numero', numero);
-    numero++
-    if (numero = 3) {
-        console.log('é múltiplo de 3');
-    } else {
-        console.log('não é múltiplo de 3');
-    }
-    if (numero = 6) {
-        console.log('é múltiplo de 3');
-    } else {
-        console.log('não é múltiplo de 3');
-    } if (numero = 9) {
-        console.log('é múltiplo de 3');
-    } else {
-        console.log('não é múltiplo de 3');
-    } if (numero = 12) {
-        console.log('é múltiplo de 3');
-    } else {
-        console.log('não é múltiplo de 3');
-    } if (numero = 15) {
-        console.log('é múltiplo de 3');
-    } else {
-        console.log('não é múltiplo de 3');
-    } if (numero = 18) {
-        console.log('é múltiplo de 3');
-    } else {
-        console.log('não é múltiplo de 3');
+    if(i % 3 ===0){
+        console.log(i + " - " + " é  múltiplo de 3");
+    }else{
+        console.log(i + " - " + " não é múltiplo de 3");
     }
 }
